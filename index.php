@@ -14,6 +14,7 @@
     <iframe src="http://www./scroller.php?id=" height="18" width="" frameborder="no" scrolling="no"></iframe>
   <h6>last updated: 19-08-22 / welcome back! ill update more soon.</h6>
   <h6>this site is now on github! <a href=https://github.com/lxjv/la.ker.gay>https://github.com/lxjv/la.ker.gay</a></h6>
+  <h6>this page was loaded at <?php echo date("Y-m-d H:i:s",filemtime(__FILE__)); ?></h6>
   <h5>"kicking the speaker wires..."</h5>
   <h1>laker's website :)</h1>
   <h2>"best viewed on a bbc micro-b!"</h2>
