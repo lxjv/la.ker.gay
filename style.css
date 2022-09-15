@@ -1,35 +1,32 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-   body {
-    background-color: #000000;
+body {
+ background-color: #000000;
+  color: white;
+  font-family: 'NunitoSans-Regular', sans-serif;
+ }
+
+ /* making links same colour as text */
+  a:hover {
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
    }
 
-   /* making links same colour as text */
-   a:hover {
+  a:link {
      color: white;
    }
 
-   a:link {
+  a:visited {
      color: white;
    }
 
-   a:visited {
-     color: white;
-   }
+  /* status.cafe */
 
-   /* status.cafe */
-
-   #statuscafe {
+  #statuscafe {
     padding: .5em;
     background-color: black;
     border: 1px solid mediumvioletred;
-}
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 1em 0.5em 1em;
-}
+    }
+  #statuscafe-username {
+      margin-bottom: .5em;
+    }
+  #statuscafe-content {
+      margin: 0 1em 0.5em 1em;
+    }
