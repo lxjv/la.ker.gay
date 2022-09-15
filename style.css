@@ -19,3 +19,17 @@
    a:visited {
      color: white;
    }
+
+   /* status.cafe */
+
+   #statuscafe {
+    padding: .5em;
+    background-color: black;
+    border: 1px solid mediumvioletred;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
